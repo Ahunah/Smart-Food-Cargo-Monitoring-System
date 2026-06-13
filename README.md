@@ -16,8 +16,6 @@ The system generates a **real-time Integrity Score (0–100)** and logs **timest
 
 ---
 
----
-
 ## 🎯 **Problem Statement**
 
 ### **Challenges in Food Cargo Logistics**
