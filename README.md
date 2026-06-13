@@ -71,17 +71,19 @@ The system generates a **real-time Integrity Score (0–100)** and logs **timest
 ---
 
 ---
-## 📊 **Integrity Scoring System**
+## 📊 Integrity Scoring System
 
-### **Scoring Rules**
-- **Starts at 100** and deducts penalties for **threshold violations**.
- | **Sensor**       | **Safe Zone**       | **Warning Threshold**       | **Critical Threshold**      | **Warning Penalty** | **Critical Penalty** |
- |------------------|---------------------|-----------------------------|-----------------------------|--------------------|---------------------|
- | Temperature      | 2–8°C               | 8–15°C or 0–2°C             | >15°C or <0°C               | -15 pts            | -40 pts             |
- | Humidity         | 45–65% RH           | 65–80% or 30–45% RH         | >80% or <30% RH             | -10 pts            | -20 pts             |
- | Light (LDR)      | Dark (sealed)       | Brief light detected        | Light >30 sec               | -20 pts            | -20 pts             |
- | Motion (PIR)     | No motion           | Motion detected             | Motion + lid open           | -15 pts            | -15 pts             |
- | Tilt             | 0–15°               | 15–45°                      | >45° or inverted            | -15 pts            | -15 pts             |
+### Scoring Rules
+
+The system starts at **100 points** and deducts penalties based on sensor violations.
+
+| Sensor       | Safe Zone        | Warning Condition         | Critical Condition        | Warning Penalty | Critical Penalty |
+|--------------|------------------|---------------------------|----------------------------|------------------|------------------|
+| Temperature  | 2–8°C            | 8–15°C or 0–2°C           | >15°C or <0°C              | -15              | -40              |
+| Humidity     | 45–65% RH        | 65–80% or 30–45% RH       | >80% or <30% RH            | -10              | -20              |
+| Light (LDR)  | Dark (sealed)    | Brief light detected      | Light > 30 sec             | -20              | -20              |
+| Motion (PIR) | No motion        | Motion detected           | Motion + lid open          | -15              | -15              |
+| Tilt         | 0–15°            | 15–45°                    | >45° or inverted           | -15              | -15              |
 
 ---
 ### **Status Classification**
