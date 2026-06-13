@@ -31,12 +31,12 @@ The system generates a **real-time Integrity Score (0–100)** and logs **timest
 
 ## 💡 **Proposed Solution**
 **Cargo Guardian** addresses these gaps with:
-✅ **Multi-sensor monitoring** (5 parameters) for **holistic cargo safety**.
-✅ **Rule-based Integrity Scoring** (0–100) with **transparent penalty system**.
-✅ **Forensic Event Logging** (timestamped breaches stored in **Supabase**).
-✅ **Low-cost hardware** (< **LKR 7,000** / ~$20 USD).
-✅ **Flutter mobile app** for real-time monitoring (replaces fixed displays).
-✅ **Open-source stack** (no proprietary dependencies).
+   ✅ **Multi-sensor monitoring** (5 parameters) for **holistic cargo safety**.
+   ✅ **Rule-based Integrity Scoring** (0–100) with **transparent penalty system**.
+   ✅ **Forensic Event Logging** (timestamped breaches stored in **Supabase**).
+   ✅ **Low-cost hardware** (< **LKR 7,000** / ~$20 USD).
+   ✅ **Flutter mobile app** for real-time monitoring (replaces fixed displays).
+   ✅ **Open-source stack** (no proprietary dependencies).
 
 ---
 
